@@ -8,7 +8,6 @@ The lineup optimization is based off of a nice paper by Hunter, Vielma, Zaman (h
 The only data files the example code relies on which are outside the data scraping pieces are the DraftKings lineup input files and contest results/prizes files that are downloadable from the DraftKings website. Some other players use scripting here to streamline further,
 but I haven't included scripts as it violates the TOS.
 
-I've left out a few key pieces/innovations in case I want to ever revisit, but this is borderline profitable already. Think about how to improve the points prediction model with more historical data (e.g., https://github.com/maksimhorowitz/nflscrapR) and more sophisticated machine learning (e.g., DNN) models. It's not impossible to get much, much better than public points projection models.
-Also think about how to improve the mathematical optimization formulation, both w.r.t. constraints and nonlinear optimization formulations. Do both and you will make money.
+I've left out a few key pieces/innovations in case I want to ever revisit, but this is borderline profitable already. Think about how to improve the points prediction model with more historical data (e.g., https://github.com/maksimhorowitz/nflscrapR) and more sophisticated machine learning (e.g., DNN) models. You can continue to improve versus publicly available points projection models. Also think about how to improve the mathematical optimization formulation, both w.r.t. constraints and nonlinear optimization formulations.
 
 Good luck!
